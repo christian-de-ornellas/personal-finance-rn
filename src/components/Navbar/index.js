@@ -10,9 +10,7 @@ const Navbar = ({reactNavigationProps}) => {
         <View style={styles.icon}>
           <Image
             style={styles.img}
-            source={{
-              uri: '/Users/christianpossidonio/Projects/ExpertDeveloper/myMoney/src/assets/wallet.png',
-            }}
+            source={require('../../assets/wallet.png')}
           />
         </View>
       </TouchableHighlight>
@@ -21,9 +19,7 @@ const Navbar = ({reactNavigationProps}) => {
         <View style={styles.icon}>
           <Image
             style={styles.img}
-            source={{
-              uri: '/Users/christianpossidonio/Projects/ExpertDeveloper/myMoney/src/assets/card-credit.png',
-            }}
+            source={require('../../assets/card-credit.png')}
           />
         </View>
       </TouchableHighlight>
@@ -31,9 +27,7 @@ const Navbar = ({reactNavigationProps}) => {
         <View style={styles.homeIcon}>
           <Image
             style={styles.homeImg}
-            source={{
-              uri: '/Users/christianpossidonio/Projects/ExpertDeveloper/myMoney/src/assets/home.png',
-            }}
+            source={require('../../assets/home.png')}
           />
         </View>
       </TouchableHighlight>
@@ -42,9 +36,7 @@ const Navbar = ({reactNavigationProps}) => {
         <View style={styles.icon}>
           <Image
             style={styles.img}
-            source={{
-              uri: '/Users/christianpossidonio/Projects/ExpertDeveloper/myMoney/src/assets/calendar.png',
-            }}
+            source={require('../../assets/calendar.png')}
           />
         </View>
       </TouchableHighlight>
@@ -53,9 +45,7 @@ const Navbar = ({reactNavigationProps}) => {
         <View style={styles.icon}>
           <Image
             style={styles.img}
-            source={{
-              uri: '/Users/christianpossidonio/Projects/ExpertDeveloper/myMoney/src/assets/search.png',
-            }}
+            source={require('../../assets/search.png')}
           />
         </View>
       </TouchableHighlight>
