@@ -5,7 +5,7 @@ import Navbar from '../../components/Navbar';
 import Brand from '../../components/Brand';
 import styles from './styles';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <Brand />
@@ -21,7 +21,7 @@ const Home = () => {
           <Card title="Receitas" value="R$ 9.600,00" />
         </View>
       </View>
-      <Navbar />
+      <Navbar reactNavigationProps={navigation} />
     </SafeAreaView>
   );
 };

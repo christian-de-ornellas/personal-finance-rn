@@ -3,7 +3,6 @@ import colors from '../../themes/colors';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.primary,
     flex: 1,
     justifyContent: 'space-between',
   },
